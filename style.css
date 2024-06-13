@@ -1,0 +1,46 @@
+html,body{
+    background-color: #f4d04e;
+    height: 100%;
+    text-align: center;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.main{
+  margin-top: 15vh;
+  display: inline-block;
+  width: 20%;
+  height: 63%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #2a2512;
+  box-shadow:  0.4rem 0.4rem black;
+  padding: 0.8rem;
+  
+}
+.tag{
+    background-color: #f4d04e ;
+    display: inline-block;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+}
+#img1{
+    width: 100%;
+    height: auto;
+}
+.content{
+    text-align: left;
+}
+
+.owner{
+   display: flex;
+}
+
+.img2{
+margin:0.2rem
+}
+.cnt2{
+    margin: 0.4rem;
+    text-align: center;
+}
