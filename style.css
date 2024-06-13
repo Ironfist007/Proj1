@@ -10,7 +10,6 @@ html,body{
   margin-top: 15vh;
   display: inline-block;
   width: 20%;
-  height: 63%;
   background-color: white;
   padding: 2rem;
   border-radius: 1rem;
@@ -31,10 +30,12 @@ html,body{
 }
 .content{
     text-align: left;
+    width: 100%;
 }
 
 .owner{
    display: flex;
+   width: 100%;
 }
 
 .img2{
@@ -44,3 +45,15 @@ margin:0.2rem
     margin: 0.4rem;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .main{
+        width: 80%;
+    }
+  }
+
+@media only screen and (max-width: 780px) {
+    .main{
+        width: 60%;
+    }
+  }
